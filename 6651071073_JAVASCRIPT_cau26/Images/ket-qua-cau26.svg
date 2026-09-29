@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="390" viewBox="0 0 1050 390">
+  <rect width="1050" height="390" fill="#f2f0f0"/><rect x="210" y="65" width="610" height="200" fill="#a8f0f0"/><rect x="225" y="80" width="580" height="48" fill="#e9a52b"/><text x="365" y="114" font-family="Georgia,serif" font-size="26" font-weight="bold">TÍNH CAN CHI CỦA NĂM ÂM LỊCH</text>
+  <g font-family="Georgia,serif" font-size="20" font-weight="bold"><text x="225" y="175">Năm dương lịch</text><text x="530" y="175">Can chi năm âm lịch</text></g>
+  <rect x="375" y="145" width="130" height="38" fill="#fff" stroke="#aaa"/><text x="390" y="171" font-family="Arial,sans-serif" font-size="18">2015</text><rect x="515" y="145" width="60" height="38" rx="12" fill="#eee" stroke="#888"/><text x="530" y="171" font-family="Arial,sans-serif" font-size="18">--&gt;</text><rect x="700" y="145" width="105" height="38" fill="#fff" stroke="#aaa"/><text x="715" y="171" font-family="Arial,sans-serif" font-size="18">Ất Mùi</text>
+</svg>

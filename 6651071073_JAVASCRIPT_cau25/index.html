@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tính tiền món ăn</title>
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
+    <main class="menu-page">
+      <h1>THỰC ĐƠN</h1>
+
+      <form id="menuForm">
+        <div class="choices">
+          <section class="choice-group">
+            <h2>Thức ăn</h2>
+            <select id="food" name="food" multiple size="7">
+              <option value="20000">Bún bò</option>
+              <option value="18000">Hủ tiếu</option>
+              <option value="17000">Bánh canh</option>
+              <option value="15000">Phở bò</option>
+              <option value="15000">Nui</option>
+              <option value="12000">Bánh mì thịt</option>
+              <option value="15000">Bánh cuốn</option>
+            </select>
+          </section>
+
+          <section class="choice-group">
+            <h2>Nước uống</h2>
+            <select id="drink" name="drink" multiple size="7">
+              <option value="12000">Cà phê đá</option>
+              <option value="15000">Cà phê sữa</option>
+              <option value="13000">Chanh dây</option>
+              <option value="13000">Chanh muối</option>
+              <option value="14000">Xí muội</option>
+              <option value="13000">Sữa tươi</option>
+              <option value="17000">Cam vắt</option>
+            </select>
+          </section>
+
+          <fieldset class="time-choice">
+            <legend>Thời điểm</legend>
+            <label>
+              <input type="radio" name="time" value="day" checked />
+              Ban ngày
+            </label>
+            <label>
+              <input type="radio" name="time" value="night" />
+              Ban đêm
+            </label>
+          </fieldset>
+        </div>
+
+        <button type="submit">Tính tiền </button>
+      </form>
+
+      <p id="message" aria-live="polite"></p>
+      <table id="bill" hidden>
+        <thead>
+          <tr>
+            <th>Các món đã dùng</th>
+            <th>Tiền</th>
+          </tr>
+        </thead>
+        <tbody id="billItems"></tbody>
+        <tfoot>
+          <tr>
+            <th>Tổng tiền</th>
+            <td id="total"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+
+    <script src="Script/cau25.js"></script>
+  </body>
+</html>

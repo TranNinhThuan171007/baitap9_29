@@ -1,0 +1,40 @@
+table {
+  border: 3px solid #0000a0;
+  border-collapse: collapse;
+  width: min(680px, 100%);
+  background-color: #ffcccc;
+  font-size: 1.1rem;
+}
+
+td {
+  border: 2px solid #0000a0;
+  padding: 6px;
+}
+
+.date-cell {
+  white-space: nowrap;
+}
+
+input,
+select,
+button {
+  font: inherit;
+}
+
+input,
+select {
+  max-width: 125px;
+}
+
+button {
+  padding: 2px 18px;
+}
+
+.center-cell {
+  text-align: center;
+}
+
+#result {
+  font-weight: 600;
+  min-height: 1.4em;
+}

@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f7f7f7;
+}
+
+.menu-page {
+  width: min(650px, 100%);
+  margin: 24px auto;
+  padding: 14px;
+  background-color: #92c3e9;
+  border: 1px solid #6b8e23;
+}
+
+h1 {
+  margin: 0 0 12px;
+  text-align: center;
+  font-size: 1.45rem;
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid #3888ea;
+}
+
+.choice-group,
+.time-choice {
+  min-width: 0;
+  border: 0;
+  border-right: 1px solid #54c5f9;
+  padding: 0;
+}
+
+.choice-group h2,
+.time-choice legend {
+  width: 100%;
+  margin: 0;
+  padding: 3px;
+  color: #0000cc;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: #4dbed7;
+  font: inherit;
+}
+
+.time-choice {
+  border-right: 0;
+  padding: 5px;
+}
+
+.time-choice label {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  display: block;
+  margin: 5px auto;
+  padding: 2px 20px;
+  font: inherit;
+}
+
+#message {
+  min-height: 1.3em;
+  margin: 6px 0;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border: 2px solid #008000;
+  border-collapse: collapse;
+  background-color: #9ff0f0;
+}
+
+th,
+td {
+  border: 1px solid #008000;
+  padding: 3px;
+  text-align: left;
+}
+
+thead th,
+tfoot th {
+  color: #0000cc;
+  text-align: center;
+}
+
+td:last-child {
+  width: 35%;
+}
+
+@media (max-width: 560px) {
+  .choices {
+    grid-template-columns: 1fr;
+  }
+
+  .choice-group,
+  .time-choice {
+    border-right: 0;
+    border-bottom: 1px solid #008000;
+  }
+
+  .time-choice {
+    border-bottom: 0;
+  }
+}

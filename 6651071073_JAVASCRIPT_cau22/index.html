@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tính nhân và chia</title>
+  </head>
+  <body>
+    <h1>Tính nhân và chia hai số</h1>
+
+    <form id="calculatorForm">
+      <p>
+        <label for="firstNumber">1st Number:</label>
+        <input
+          id="firstNumber"
+          name="firstNumber"
+          type="number"
+          step="1"
+          required
+        />
+      </p>
+      <p>
+        <label for="secondNumber">2nd Number:</label>
+        <input
+          id="secondNumber"
+          name="secondNumber"
+          type="number"
+          step="1"
+          required
+        />
+      </p>
+      <button type="button" id="multiplyButton">Multiply</button>
+      <button type="button" id="divideButton">Divide</button>
+    </form>
+
+    <p>The Result Is:</p>
+    <p id="result" aria-live="polite"></p>
+
+    <script src="Script/cau22.js"></script>
+  </body>
+</html>

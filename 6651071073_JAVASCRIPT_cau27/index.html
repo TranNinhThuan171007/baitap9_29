@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý đơn hàng</title>
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
+    <main class="order-page">
+
+      <table id="orderTable">
+        <thead>
+          <tr>
+            <th>Số lượng</th>
+            <th>Đơn giá</th>
+            <th>Tổng</th>
+            <th>Chức năng</th>
+          </tr>
+        </thead>
+        <tbody id="orderItems">
+          <tr>
+            <td>
+              <input
+                class="quantity"
+                type="number"
+                min="0"
+                step="1"
+                value="2"
+              />
+            </td>
+            <td>
+              <input
+                class="unit-price"
+                type="number"
+                min="0"
+                step="1"
+                value="1000000"
+              />
+            </td>
+            <td><input class="line-total" type="text" readonly /></td>
+            <td><button class="delete-button" type="button">Xóa</button></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="quantity"
+                type="number"
+                min="0"
+                step="1"
+                value="1"
+              />
+            </td>
+            <td>
+              <input
+                class="unit-price"
+                type="number"
+                min="0"
+                step="1"
+                value="500000"
+              />
+            </td>
+            <td><input class="line-total" type="text" readonly /></td>
+            <td><button class="delete-button" type="button">Xóa</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p id="message" aria-live="polite"></p>
+    </main>
+
+    <script src="Script/cau27.js"></script>
+  </body>
+</html>

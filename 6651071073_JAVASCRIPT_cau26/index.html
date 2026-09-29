@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tính Can Chi</title>
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
+    <main class="can-chi-page">
+      <h1>TÍNH CAN CHI CỦA NGÀY ÂM LỊCH</h1>
+
+      <form id="canChiForm">
+        <label for="solarYear">Năm dương lịch</label>
+        <input id="solarYear" name="solarYear" type="text" value="2015" />
+        <button type="submit">--&gt;</button>
+        <label for="lunarYear">Can chi năm âm lịch</label>
+        <input id="lunarYear" name="lunarYear" type="text" readonly />
+      </form>
+
+      <p id="message" aria-live="polite"></p>
+    </main>
+
+    <script src="Script/cau26.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xuất thứ trong tuần</title>
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
+    <h1>Xuất thứ trong tuần</h1>
+
+    <form id="weekdayForm">
+      <table>
+        <tr>
+          <td class="date-cell">
+            <label for="day">Ngày</label>
+            <input
+              id="day"
+              name="day"
+              type="number"
+              min="1"
+              max="31"
+              value="12"
+              required
+            />
+          </td>
+          <td class="date-cell">
+            <label for="month">Tháng</label>
+            <select id="month" name="month">
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </td>
+          <td class="date-cell">
+            <label for="year">Năm</label>
+            <input
+              id="year"
+              name="year"
+              type="number"
+              min="1"
+              max="9999"
+              value="2015"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="center-cell" colspan="3">
+            <button type="submit">Xuất thứ</button>
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="center-cell"
+            colspan="3"
+            id="result"
+            aria-live="polite"
+          ></td>
+        </tr>
+      </table>
+    </form>
+
+    <script src="Script/cau24.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="390" viewBox="0 0 760 390">
+  <rect width="760" height="390" fill="#fff"/>
+  <text x="20" y="55" font-family="Georgia,serif" font-size="32" font-weight="bold">Tính tiền lương tháng</text>
+  <rect x="18" y="82" width="545" height="190" fill="#9fccef" stroke="#dd9d48" stroke-width="4"/>
+  <path d="M18 128h545M18 174h545M18 224h545M178 82v190" stroke="#efc6dd" stroke-width="3"/>
+  <g font-family="Georgia,serif" font-size="20" font-weight="bold" fill="#111">
+    <text x="28" y="113">Lương</text><text x="28" y="159">Hệ số lương</text><text x="28" y="257">Lương tháng</text>
+  </g>
+  <g font-family="Georgia,serif" font-size="18" fill="#111">
+    <text x="188" y="113">1000000</text><text x="188" y="159">3.2</text><text x="188" y="257">3200000</text>
+  </g>
+  <rect x="250" y="181" width="180" height="34" rx="3" fill="#eee" stroke="#888"/>
+  <text x="270" y="205" font-family="Georgia,serif" font-size="17">Tính lương tháng</text>
+</svg>

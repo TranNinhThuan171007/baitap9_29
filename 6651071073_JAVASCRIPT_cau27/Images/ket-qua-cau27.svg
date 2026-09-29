@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <rect width="900" height="360" fill="#f7f7f7"/><rect x="115" y="70" width="670" height="130" fill="#a1f23b" stroke="#58a547" stroke-width="3"/>
+  <path d="M115 110h670M115 155h670M295 70v130M495 70v130M660 70v130" stroke="#58a547" stroke-width="2"/>
+  <g font-family="Georgia,serif" font-size="21" font-weight="bold"><text x="155" y="98">Số lượng</text><text x="350" y="98">Đơn giá</text><text x="545" y="98">Tổng</text><text x="680" y="98">Chức năng</text></g>
+  <g font-family="Arial,sans-serif" font-size="18"><text x="125" y="138">2</text><text x="305" y="138">1000000</text><text x="505" y="138">2000000</text><text x="690" y="138">Xóa</text><text x="125" y="183">1</text><text x="305" y="183">500000</text><text x="505" y="183">500000</text><text x="690" y="183">Xóa</text></g>
+  <rect x="675" y="116" width="65" height="29" rx="12" fill="#eee" stroke="#888"/><rect x="675" y="161" width="65" height="29" rx="12" fill="#eee" stroke="#888"/>
+</svg>

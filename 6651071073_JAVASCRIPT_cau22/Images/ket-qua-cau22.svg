@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="430" viewBox="0 0 680 430">
+  <rect width="680" height="430" fill="#ffffff" />
+  <rect x="25" y="25" width="630" height="380" fill="#ffffff" stroke="#bdbdbd" stroke-width="3" />
+  <text x="55" y="83" font-family="Arial, sans-serif" font-size="24" fill="#222">Tính nhân và chia hai số</text>
+  <text x="55" y="145" font-family="Arial, sans-serif" font-size="20" fill="#222">1st Number:</text>
+  <rect x="190" y="117" width="300" height="40" fill="#ffffff" stroke="#aaa" stroke-width="2" />
+  <text x="205" y="145" font-family="Arial, sans-serif" font-size="20" fill="#222">12</text>
+  <text x="55" y="205" font-family="Arial, sans-serif" font-size="20" fill="#222">2nd Number:</text>
+  <rect x="190" y="177" width="300" height="40" fill="#ffffff" stroke="#aaa" stroke-width="2" />
+  <text x="205" y="205" font-family="Arial, sans-serif" font-size="20" fill="#222">10</text>
+  <rect x="190" y="245" width="130" height="42" rx="4" fill="#eeeeee" stroke="#888" stroke-width="2" />
+  <text x="210" y="273" font-family="Arial, sans-serif" font-size="18" fill="#222">Multiply</text>
+  <rect x="335" y="245" width="110" height="42" rx="4" fill="#eeeeee" stroke="#888" stroke-width="2" />
+  <text x="360" y="273" font-family="Arial, sans-serif" font-size="18" fill="#222">Divide</text>
+  <text x="55" y="340" font-family="Arial, sans-serif" font-size="21" fill="#222">The Result Is:</text>
+  <text x="55" y="380" font-family="Arial, sans-serif" font-size="24" fill="#222">120</text>
+</svg>

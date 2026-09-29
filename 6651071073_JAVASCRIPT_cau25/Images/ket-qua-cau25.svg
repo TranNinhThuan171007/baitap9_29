@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="560" viewBox="0 0 850 560">
+  <rect width="850" height="560" fill="#f7f7f7"/><rect x="210" y="25" width="430" height="490" fill="#ccff00" stroke="#6b8e23"/>
+  <text x="335" y="65" font-family="Georgia,serif" font-size="27" font-weight="bold">THỰC ĐƠN</text>
+  <rect x="225" y="85" width="400" height="170" fill="#50bdd0" stroke="#008000"/>
+  <path d="M358 85v170M490 85v170" stroke="#008000"/>
+  <g font-family="Georgia,serif" font-size="17" font-weight="bold"><text x="250" y="108">Thức ăn</text><text x="378" y="108">Nước uống</text><text x="530" y="108">Thời điểm</text></g>
+  <g font-family="Georgia,serif" font-size="16"><text x="232" y="137">Bún bò</text><text x="232" y="159">Hủ tiếu</text><text x="232" y="181">Bánh canh</text><text x="232" y="203">Phở bò</text><text x="232" y="225">Nui</text><text x="370" y="137">Cà phê đá</text><text x="370" y="159">Cà phê sữa</text><text x="370" y="181">Chanh dây</text><text x="370" y="203">Chanh muối</text><text x="515" y="145">◉ Ban ngày</text><text x="515" y="180">○ Ban đêm</text></g>
+  <rect x="375" y="270" width="100" height="32" fill="#eee" stroke="#888"/><text x="392" y="292" font-family="Georgia,serif" font-size="16">Tính tiền</text>
+  <rect x="225" y="320" width="400" height="145" fill="#9ff0f0" stroke="#008000"/><path d="M225 350h400M225 380h400M225 410h400M225 440h400" stroke="#008000"/><text x="300" y="342" font-family="Georgia,serif" font-size="17" font-weight="bold">Các món đã dùng</text><text x="540" y="342" font-family="Georgia,serif" font-size="17" font-weight="bold">Tiền</text><text x="235" y="372" font-family="Georgia,serif" font-size="16">Bún bò</text><text x="535" y="372" font-family="Georgia,serif" font-size="16">20000</text><text x="235" y="432" font-family="Georgia,serif" font-size="16" font-weight="bold">Tổng tiền</text><text x="535" y="432" font-family="Georgia,serif" font-size="16">20000 đồng</text>
+</svg>

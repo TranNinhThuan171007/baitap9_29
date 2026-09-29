@@ -1,0 +1,33 @@
+table {
+  border: 3px solid #dd9d48;
+  border-collapse: collapse;
+  width: min(660px, 100%);
+  background-color: #9fccef;
+  font-size: 1.1rem;
+}
+
+th,
+td {
+  border: 2px solid #efc6dd;
+  padding: 4px;
+  text-align: left;
+}
+
+th {
+  width: 160px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  font: inherit;
+}
+
+.action-cell {
+  text-align: center;
+}
+
+button {
+  padding: 2px 24px;
+  font: inherit;
+}
